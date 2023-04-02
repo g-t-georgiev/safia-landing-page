@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+
+    <mask id="my-mask">
+        <!-- Visible portion of the mask -->
+        <rect fill="#fff" x="1" y="6" rx="1" width="22" height="17" />
+        <!-- Invisible portion of the mask -->
+        <polyline fill="none" stroke="#000" stroke-width="2.25" points="12 10.5, 12 16, 16.5 16" />
+    </mask>
+
+    <path 
+        fill="#4edfa5" 
+        d="M11,3.95 
+           h-8.99 
+           q-1,0 -1,1 
+           v3  
+           h13.5            
+           z
+        " 
+    />
+
+    <rect fill="#4edfa5" x="1" y="6" rx="1" width="22" height="17" mask="url(#my-mask)" />
+
+</svg>
